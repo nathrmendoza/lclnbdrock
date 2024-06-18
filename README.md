@@ -4,7 +4,7 @@ Boilerplate and guide built for running bedrock, sage and acorn on local by flyw
 ## Creating an instance on local
 
 - Create a site on flywheel, select custom environment.
-- Php version should be >= 8.0. For the web server select nginx, if you're on linux and have not yet installed nginx run `sudo apt update` then `sudo apt install nginx`. No prefernce for DB. 
+- Php version should be >= 8.2. For the web server select nginx, if you're on linux and have not yet installed nginx run `sudo apt update` then `sudo apt install nginx`. No prefernce for DB. 
 - Navigate to site folder (you should see, app, conf, and logs) and go to app. 
 - Clone the repo from this directory
 - Go back to site directory, open up `conf/nginx/site.conf.hbs` on your preferred code editor.
