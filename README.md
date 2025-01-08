@@ -14,5 +14,5 @@ Boilerplate and guide built for running bedrock, sage and acorn on local by flyw
 - Create a copy of .env.example, rename it to .env
 - Set DB_NAME to local and set both DB_USER and DB_PASSWORD to root, replace WP_HOME with your own local domain.
 - From here you can also generate your own keys for bedrock auth, this will only matter on production.
-- Navigate to `web/app/themes/sample-theme-sage` run `composer install` then run `yarn`. After installing all packages run `yarn build`.
+- Navigate to `web/app/themes/sample-theme-sage` run `composer install` then run `yarn`. After installing all packages run `yarn build`. IMPORTANT! when using Windows use WSL to run `yarn build`
 - Start up local server and you're good to go.
